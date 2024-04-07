@@ -11,7 +11,7 @@ from dash_table import DataTable
 from selenium import webdriver
 import webview
 
-df = pd.read_csv(r"C:\Users\JMC\Desktop\Projects\IMDB Movie Ratings\imdb_movie_data_2023.csv")
+df = pd.read_csv("imdb_movie_data_2023.csv")
 
 # Set the maximum number of rows and columns to display
 pd.set_option('display.max_rows', None)
